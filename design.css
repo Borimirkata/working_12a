@@ -1,0 +1,93 @@
+		*{
+	     margin:0;
+             padding:0;
+        }
+	 	 nav{
+             width:120%;
+             height:70px;
+             background-color:#ADD8E6;
+        }
+         ul{
+             margin:0;
+             padding:0;
+		}
+         ul li {
+             list-style:none;
+	     	 text-align:center;
+             display:inline-block;
+             line-height:70px;
+		}
+         ul li a{
+             text-decoration:none;
+             color:black;
+             padding:0px 130px;
+             text-align:center;
+        }
+         #bodyindex{
+           background-image: url('good.jpg');
+           background-repeat: no-repeat;
+           background-size:100% 100%;
+           background-attachment:fixed;
+           height:100%;
+           background-position:center;
+        }
+         p a{
+        	text-decoration:none;
+        	color:black;
+        }
+         img{
+         	margin:10px;
+       		width=200px;
+       		height=200px;
+        }
+         h1{
+          	text-align:center;
+        }
+         p{
+         	margin:10px;	
+        }
+         td a{
+       		text-decoration:none;
+       		color:black;
+        }
+         #tableteams{
+       		text-align:center;
+       		padding:0px 100px;
+        }
+         #tableteams td,tr{
+       		text-align:center;
+       		padding:0px 100px;
+        }
+        	
+         #tablestandings{
+	   	   border:1px solid black;
+           border-collapse:collapse;
+           margin:60px;
+	    }
+	     #tablestandings th,td{
+	   	   border:1px solid black;
+           border-collapse:collapse;
+           margin:60px;
+           padding:10px;
+	    }
+	     #tablestandings tr:nth-child(even) {
+           background-color:#EEEE;
+        }
+         #tablestandings tr:hover{
+           background-color:#D6EEEE;
+        }
+         h2{
+         	font-size:20px;
+         	margin:10px;
+         	text-align:center;
+        }
+         h2 a{
+         	text-decoration:none;
+         	color:black;
+        }
+         #para1{
+           text-align:left;
+           font-size:30px;
+           margin:100px;
+           padding:0px;
+        }

@@ -1,64 +1,9 @@
 <!DOCTYPE html>
 <html>
-<style>
-        *{
-	     margin:0;
-             padding:0;
-        }
-	 nav{
-             width:120%;
-             height:70px;
-             background-color:#ADD8E6;
-        }
-         ul{
-             margin:0;
-             padding:0;
-	}
-         ul li {
-             list-style:none;
-	     text-align:center;
-             display:inline-block;
-             line-height:70px;
-	}
-         ul li a{
-             text-decoration:none;
-             color:black;
-             padding:0px 130px;
-             text-align:center;
-        } 
-		
-	table,th,td {
-	   border:1px solid black;
-           border-collapse:collapse;
-           margin:60px;
-	}
-        th,td {
-           padding:10px;
-        }
-        tr:nth-child(even) {
-           background-color:#EEEE;
-        }
-        tr:hover{
-           background-color:#D6EEEE;
-        }
-        p{
-           text-align:center;
-           font-size:30px;
-        }
-        p a{
-        	text-decoration:none;
-        	color:black;
-        }
-        img{
-          margin:10px;
-        }
-         h1{
-         text-align:center;
-         }
-</style>
 <head>
   <title>Standings</title>
   <link rel="icon" type="image/x-icon" href="favicon.png">
+  <link rel="stylesheet" href="design.css">
 </head>
 <body>
    <nav>
@@ -71,9 +16,9 @@
    </nav>
 
    <h1><b>NBA STANDINGS 2021/2022 SEASON</b></h1>
-  	<p>The NBA playoffs is the postseason tournament of the National Basketball Association (NBA) held to determine the league's champion.An annual best-of-seven  			elimination tournament,the NBA playoffs are held after the league's regular season and its preliminary postseason tournament, the NBA Play-In Tournament.This is the best about the NBA.The information used to create the tables can be found by going to the following website,that is truly amazing and mind-blowing and truly a must go for fans:<a href="https://www.google.com/search?client=firefox-b-d&q=nba+standings">HERE!</a></p>
-      <p>Eastern Conference</p>
-		<table>
+  	<h2>The NBA playoffs is the postseason tournament of the National Basketball Association (NBA) held to determine the league's champion.An annual best-of-seven  			elimination tournament,the NBA playoffs are held after the league's regular season and its preliminary postseason tournament, the NBA Play-In Tournament.This is the best about the NBA.The information used to create the tables can be found by going to the following website,that is truly amazing and mind-blowing and truly a must go for fans:<a href="https://www.google.com/search?client=firefox-b-d&q=nba+standings">HERE!</a></h2>
+      <p id="para1">Eastern Conference</p>
+		<table id="tablestandings">
 		   <tr>
 			<th>POS</th>
 			<th>TEAM</th>
@@ -171,8 +116,8 @@
 			<td>60</td>
 		   </tr>
 		</table>
-      <p1>Western Conference</p1>
-                <table>
+      <p id="para1">Western Conference</p>
+          <table id="tablestandings">
 		   <tr>
 			<th>POS</th>
 			<th>TEAM</th>
