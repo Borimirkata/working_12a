@@ -1,112 +1,115 @@
-		*{
-	     	 margin:0;
-             padding:0;
-        }
-	 	 nav{
-             width:120%;
-             height:70px;
-             background-color:DarkTurquoise;
-        }
-         ul{
-             margin:0;
-             padding:0;
-		}
-         ul li {
-             list-style:none;
-	     	 text-align:center;
-             display:inline-block;
-             line-height:70px;
-		}
-         ul li a{
-             text-decoration:none;
-             color:black;
-             padding:0px 130px;
-             text-align:center;
-        }
-         #bodyindex{
-             background-image: url('good.jpg');
-             background-repeat: no-repeat;
-             background-size:100% 100%;
-             background-attachment:fixed;
-             height:100%;
-             background-position:center;
-        }
-         p a{
-        	 text-decoration:none;
-        	 color:black;
-        }
-         img{
-         	 margin:10px;
-       		 width=200px;
-       		 height=200px;
-        }
-         h1{
-          	 text-align:center; 
-        }
-         p{
-         	 margin:10px;
-         	 font-family:'MayaRegular',sans-serif;
-   			 font-weight:normal;
-             font-style:normal; 	
-        }
-         td a{
-       		 text-decoration:none;
-       		 color:black;
-        }
-         #tableteams{
-       		 text-align:center;
-       		 padding:0px 100px;
-       		 border:0px;
-        }
-         #tableteams td,tr{
-       		 text-align:center;
-       		 padding:0px 100px;
-       		 border:0px;
-        }
+*{
+	margin:0;
+	padding:0;
+}
+nav{
+	width:120%;
+    height:70px;
+    background-color:DarkTurquoise;
+}
+ul{
+    margin:0;
+    padding:0;
+}
+ul li {
+    list-style:none;
+ 	text-align:center;
+    display:inline-block;
+    line-height:70px;
+}
+ul li a{
+    text-decoration:none;
+    color:black;
+    padding:0px 130px;
+    text-align:center;
+}
+#bodyindex{
+    background-image: url('good.jpg');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-attachment:fixed;
+    height:100%;
+    background-position:center;
+}
+p a{
+	text-decoration:none;
+	color:black;
+}
+img{
+ 	margin:10px;
+	width:200px;
+	height:200px;
+}
+h1{
+  	text-align:center; 
+}
+p{
+ 	margin:10px;
+ 	font-family:'MayaRegular',sans-serif;
+	font-weight:normal;
+    font-style:normal; 	
+}
+td a{
+	text-decoration:none;
+	color:black;
+}
+#tableteams{
+	text-align:center;
+	padding:0px 100px;
+	border:0px;
+}
+#tableteams td,tr{
+	text-align:center;
+	padding:0px 100px;
+	border:0px;
+}
         	
-         #tablestandings{
-	   	     border:1px solid black;
-             border-collapse:collapse;
-             margin:60px;
-	    }
-	     #tablestandings th,td{
-	   	     border:1px solid black;
-             border-collapse:collapse;
-             margin:60px;
-             padding:10px;
-	    }
-	     #tablestandings tr:nth-child(even) {
-             background-color:#EEEE;
-        }
-         #tablestandings tr:hover{
-             background-color:#D6EEEE;
-        }
-         #standings{
-         	 font-size:20px;
-         	 margin:10px;
-         	 text-align:left;
-        }
-         #standings a{
-         	 text-decoration:none;
-         	 color:hsl(0, 100%, 0%);
-        }
-         #para1{
-             text-align:left;
-             font-size:30px;
-             margin:100px;
-             padding:0px;
-        }
-         h2{
-             margin:10px;
-        }
-         video{
-             width:320px;
-             height:240px;
-        }
-         div > h1,h2{
-             background-color:yellow;
-        }
-         p::first-letter{
-         	 color:rgb(0,255,0);
-         	 font-size: xx-large;
-        }
+#tablestandings{
+    border:1px solid black;
+    border-collapse:collapse;
+    margin:60px;
+}
+#tablestandings th,td{
+    border:1px solid black;
+    border-collapse:collapse;
+    margin:60px;
+    padding:10px;
+}
+#tablestandings tr:nth-child(even) {
+    background-color:#EEEE;
+}
+#tablestandings tr:hover{
+    background-color:#D6EEEE;
+}
+#standings{
+ 	font-size:20px;
+ 	margin:10px;
+ 	text-align:left;
+}
+#standings a{
+ 	text-decoration:none;
+ 	color:hsl(0, 100%, 0%);
+}
+#para1{
+    text-align:left;
+    font-size:30px;
+    margin:100px;
+    padding:0px;
+}
+h2{
+    margin:10px;
+}
+video{
+    width:320px;
+    height:240px;
+}
+div > h1,h2{
+    background-color:yellow;
+}
+p::first-letter{
+	color:rgb(0,255,0);
+ 	font-size: xx-large;
+}
+a[href="https://commons.wikimedia.org/wiki/Category:Videos"]{							
+	color:rgb(0,255,0);
+}
