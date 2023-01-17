@@ -35,16 +35,11 @@ p a{
 	text-decoration:none;
 	color:black;
 }
-img{
- 	margin:10px;
-	width:200px;
-	height:200px;
-}
+
 h1{
-  	text-align:center; 
+  	text-align:center;
 }
 p{
- 	margin:10px;
  	font-family:'MayaRegular',sans-serif;
 	font-weight:normal;
     font-style:normal; 	
@@ -112,4 +107,10 @@ p::first-letter{
 }
 a[href="https://commons.wikimedia.org/wiki/Category:Videos"]{							
 	color:rgb(0,255,0);
+}
+#flextwo{
+	padding:10px;
+}
+body {
+	padding: 20px;
 }
