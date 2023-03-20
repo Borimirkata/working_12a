@@ -1,0 +1,141 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+ul{
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color:DarkTurquoise;
+}
+li {
+	float:left;
+}
+li a{
+     	display: block;
+  	color: white;
+  	text-align: center;
+ 	padding: 14px 16px;
+  	text-decoration: none;
+}
+#bodyindex{
+    background-image: url('good.jpg');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-attachment:fixed;
+    height:100%;
+    background-position:center;
+}
+p a{
+	text-decoration:none;
+	color:black;
+}
+
+h1{
+  	text-align:center;
+}
+p{
+ 	font-family:'MayaRegular',sans-serif;
+	font-weight:normal;
+    font-style:normal; 	
+}
+td a{
+	text-decoration:none;
+	color:black;
+}
+#tableteams{
+	text-align:center;
+	padding:0px 100px;
+	border:0px;
+}
+#tableteams td,tr{
+	text-align:center;
+	padding:0px 100px;
+	border:0px;
+}
+        	
+#tablestandings{
+    border:1px solid black;
+    border-collapse:collapse;
+    margin:60px;
+}
+#tablestandings th,td{
+    border:1px solid black;
+    border-collapse:collapse;
+    margin:60px;
+    padding:10px;
+}
+#tablestandings tr:nth-child(even) {
+    background-color:#EEEE;
+}
+#tablestandings tr:hover{
+    background-color:#D6EEEE;
+}
+#standings{
+ 	font-size:20px;
+ 	margin:10px;
+ 	text-align:left;
+}
+#standings a{
+ 	text-decoration:none;
+ 	color:hsl(0, 100%, 0%);
+}
+#para1{
+    text-align:left;
+    font-size:30px;
+    margin:100px;
+    padding:0px;
+}
+h2{
+    margin:10px;
+}
+video{
+    width:320px;
+    height:240px;
+}
+div > h1,h2{
+    background-color:yellow;
+}
+p::first-letter{
+	color:rgb(0,255,0);
+ 	font-size: xx-large;
+}
+a[href="https://commons.wikimedia.org/wiki/Category:Videos"]{							
+	color:rgb(0,255,0);
+}
+.flex one two-700{
+	grid-auto-rows:minmax(150px,auto);
+}
+body {
+	padding:10px;
+	padding-top:40px;
+}
+.grid-container{
+	display:grid;
+	grid-template-columns:auto auto auto;
+  	background-color: #2196F3;
+  	padding: 10px;
+	width:100%;
+	flex-flow:wrap;
+}
+.grid-item {
+	background-color:lightcyan;
+  	border: 1px solid lightblue;
+  	padding: 10px;
+  	font-size: 20px;
+  	text-align: center;
+}
+.fourth{
+	max-width:100%;
+}
+
+.modal .overlay ~ * > *, .card > * {
+	width: 100%;
+}
+nav{
+	background-color:DarkTurquoise;
+	margin:10px;
+	margin-top:0px;
+}

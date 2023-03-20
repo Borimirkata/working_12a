@@ -1,0 +1,16 @@
+<nav>
+  			<a href="index.html" class="brand">
+    			<img class="logo" src="favicon.png" />
+    			<span>Home</span>
+  			</a>
+  			<!-- responsive-->
+  			<input id="bmenub" type="checkbox" class="show">
+ 			<label for="bmenub" class="burger pseudo button">MENU</label>
+
+  			<div class="menu">
+    			<a href="home.html" class="{% if page.name != 'home.html' %}pseudo{% endif %} button">About the game</a>
+    			<a href="teams.html" class="{% if page.name != 'teams.html' %}pseudo{% endif %} button ">Teams</a>
+    			<a href="standings.html" class="{% if page.name != 'standings.html' %}pseudo{% endif %} button ">Standings</a>
+    			<a href="highlights.html" class="{% if page.name != 'highlights.html' %}pseudo{% endif %} button ">Highlights</a>
+  			</div>
+</nav>
